@@ -1,0 +1,25 @@
+<h1>Home</h1>
+
+
+<div ng-model = "teams">
+  
+  <div ng-repeat="team in teams">
+    <hr />
+  <p>Team: {{ team.name }}</p>
+  <p>City: {{ team.city }}</p>
+
+</div>
+</div>
+
+<h3>List Data</h3>
+
+<div>
+<div ng-model="listData">
+  <div ng-repeat="data in listData">
+
+  <p>{{data.Name}}</p>
+
+</div>
+</div>
+
+</div>
